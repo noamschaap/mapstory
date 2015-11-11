@@ -1,0 +1,59 @@
+/*view map*/
+#stepimg {
+	vertical-align: bottom; border:0;
+	height:auto; max-height:260px; 
+	width: 100%;
+	margin:auto; display:block;" 
+}
+
+#spotmap {
+	 margin-left:300px;  
+	 height: 100%;
+	 z-index:5;
+	 box-shadow: 0px 0px 10px 0px;
+}
+
+#mapinfo {
+	margin:15px;
+ 	background-color:#F5F5F5;
+ 	text-align: center;
+}
+
+#tripsteps {
+	float:left; width:300px;height:100%;z-index:1000;background-color:#F5F5F5; 
+	box-shadow: 0px 0px 10px 0px; margin:0px;
+}
+#imgdiv {
+	/* position:absolute; left:0px; height:260px; width:295px;
+    border-top: 1px solid black;
+    bottom:0px;z-index:1001;background-color:#F5F5F5; */
+    padding: 10px;
+	position:absolute; 
+	top: 110px; right: 0px; width:300px;
+	z-index:1000;  background-color:rgba(255,255,255,0.9);
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px 3px;
+}
+
+#controls {
+	padding:0px;
+	position: absolute;
+	bottom:30px;
+	left:50%;
+	margin-left:-69px;/*half the width*/
+	background-color: white;
+	z-index: 1001;
+	width: 180px;
+	border-radius: 2px;
+	background-color:transparent;
+}
+
+#controls button {
+	background-color: green;
+	color: white;
+	font-size: x-large;
+	padding: 5px;
+	font-family: roboto, sans;
+	margin-right: 5px;
+	border-radius: 5px;
+}

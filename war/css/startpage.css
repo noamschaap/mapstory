@@ -1,0 +1,113 @@
+/* start page */
+#greycover {
+	display:none; 
+	position: absolute; 
+	top:0px; left:0px;
+	width:100%; 
+	height: 100%; 
+	background-color:grey; 
+	opacity:0.4;
+	z-index:1000;
+}
+#spotmap {
+	 position: absolute; 
+	 top:0px; 
+	 left:0px;
+	 width:100%;  
+	 height: 100%;
+}
+
+.markerimage {
+	border: 1px solid white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color:grey;
+}
+
+#mymapslink {
+	position:absolute; 
+	font: bold sans;
+	color: white;
+	top:20px; 
+	right: 50px; 
+	z-index: 2000;
+	font-size: x-large;
+	
+}
+#mymapslink a {
+	/*color:green;*/
+	color: white;
+	text-decoration:none;
+	font-family: roboto, sans;
+}
+#mymapslink a:hover{
+	text-decoration:underline;
+}
+#createstorybut{
+	height: 100%; width: 100%; 
+	background-color:green; 
+	color:white;font-size:x-large;
+	font-family: roboto, sans;
+}
+
+#stories {
+	display:none; position: absolute; top:50px; left:50px; 
+	z-index:1001;
+	background-color:rgba(255,255,255,0.9);
+	padding:10px;
+	width: 310px;
+	max-height:400px;
+	overflow: auto;
+	box-shadow: 1px 1px 2px 1px;
+}
+#stories h2 {
+	font-family: roboto, sans;
+}
+#stories ul {
+  list-style-type: none;
+  width: 300px;
+  padding:0px;
+  margin:0px;
+}
+ 
+#stories h3 {
+	margin:5px 0px;
+  	font: bold 18px/1.5 roboto, sans-serif;
+}
+ 
+#stories li img {
+  float: left;
+  margin: 0 15px 0 0;
+  border-radius: 50%;
+}
+
+#stories li img:hover {
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px 2px;
+}
+ 
+#stories li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  margin: 0px;
+  color:black;
+}
+ 
+#stories li {
+  padding: 5px;
+  overflow: auto;
+}
+ 
+#stories li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+#options {
+	position:absolute;bottom:50px;left:50%; margin-left:-175px; 
+	height: 70px; width:350px;z-index:2000;
+}
+.tripimg {
+	width: 100px;
+	height: 100px;
+}
